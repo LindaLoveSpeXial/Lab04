@@ -1,6 +1,6 @@
 package lab04;
 
-public class JPA406 {
+public class JPPA406 {
     public static void main(String[] args) {
         int[] parkingHours = {2, 3, 5, 8};
         
