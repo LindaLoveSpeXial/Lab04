@@ -8,8 +8,6 @@ public class JPPA406 {
             System.out.println("停車時數: " + hours + "小時\n應繳費用: " + calculateFee(hours) + "元整\n------------------");
         }
     }
-
-
     public static int calculateFee(int hours) {
         if (hours <= 2) {
             return hours * 30;
