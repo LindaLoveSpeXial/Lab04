@@ -2,8 +2,6 @@ package lab04;
 
 public class JPA405 {
     public static void main(String[] args) {
-        
- 
     String[] a = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};
         String[] b = new String[a.length];
 
