@@ -15,9 +15,10 @@ public class JPA402 {
         for (int i = 0; i < n.length; i++) {
             x += n[i];
         }
+        double h=(float)x/b;
         System.out.printf("人數:%d\n", b);
         System.out.printf("總分:%.2f\n", x);
-        System.out.printf("平均:%f\n", x / b);
+        System.out.printf("平均:%f",h);
     a.close();
     }
 }
