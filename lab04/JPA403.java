@@ -19,10 +19,10 @@ public class JPA403 {
     }
 
 
-    public static void p(int[][] m) {
-        for (int i = 0; i < m.length; i++) {
-            for (int j = 0; j < m[i].length; j++) {
-                System.out.print(m[i][j] + " ");
+    public static void p(int[][] c) {
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < c[i].length; j++) {
+                System.out.print(c[i][j] + " ");
             }
             System.out.println();
         }
